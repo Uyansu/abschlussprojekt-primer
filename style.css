@@ -53,8 +53,14 @@ header{
     background-image: url(https://i.pinimg.com/originals/3f/17/28/3f1728c832942c0cb02cfce349df5e9a.jpg);
     background-size: 100% 180%;
     background-repeat: no-repeat;
-    width: 66%;
+    width: 67%;
     height: 30vh;
+    border-bottom: solid black 1px;
+    border-right: solid black 1px;
+    border-left: solid white 1px;
+    border-top: solid white 1px;
+
+
 }
 
 #list-div{
@@ -110,6 +116,7 @@ aside{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: space-around;
     width:16.5% ;
     margin-left: 1%;
     border-bottom: solid black 1px;
@@ -131,36 +138,83 @@ aside{
     font-style: italic;
 }
 
+/*------------aside-styling------------*/
+
+#aside-ueber{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
 #ueber-mich{
     margin-bottom: 2%;
     font-style: italic;
+}
+
+#youtube-player{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+   
 }
 
 /* ----------styling-footer-------------- */
 
 footer{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
+    align-items: center;
+    width:100%;
     background-color:rgb(228, 185, 98);
     padding-top: 3%;   
+
 }
 
-form{
-    width: 66%;
-    margin-bottom: 10%;
+#footer-central{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 67%;
+    border-bottom: solid black 1px;
+    border-right: solid black 1px;
+    border-left: solid white 1px;
+    border-top: solid white 1px;
+    margin-bottom: 3%;
+    padding: 1%;
 }
 
-legend{
-    margin-bottom: 2%;
+#news-main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#h3-footer{
+    display: flex;
+    flex-wrap: wrap;
+    font-style: italic;
+}
+
+#newsletter{
+    display: flex;
+    margin-top: 2%;
 }
 
 input{
-    margin-bottom: 3%;
+   
     font-size: 0.8rem;
 }
 
 button{
     font-size: 0.8rem;
+}
+
+#copyright{
+    align-self: flex-end;
+    color:rgb(121, 108, 108) ;
+    font-style: italic;
+    font-size: 0.7rem;
 }
