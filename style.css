@@ -85,7 +85,7 @@ header{
     color: black;    
 }
 
-  .liste:hover{
+.liste:hover{
     color: purple;
     font-size: 100%;
 
@@ -159,7 +159,6 @@ aside{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-   
 }
 
 /* ----------styling-footer-------------- */
@@ -207,7 +206,6 @@ footer{
 }
 
 input{
-   
     font-size: 0.8rem;
 }
 
